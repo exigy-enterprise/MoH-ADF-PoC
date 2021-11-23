@@ -1,0 +1,6 @@
+{
+	"name": "MoH-PublicEndpoint-Runtime",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}

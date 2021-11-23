@@ -1,0 +1,9 @@
+{
+	"name": "MoH-ADF-PublicInstance",
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "aa54be31-ef3f-4e72-8e5b-e325ef37a51d",
+		"tenantId": "9fc8a845-3884-486b-b9e8-294370b54c48"
+	}
+}

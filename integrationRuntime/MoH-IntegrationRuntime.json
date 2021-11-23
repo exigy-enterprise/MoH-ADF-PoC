@@ -1,6 +1,0 @@
-{
-	"name": "MoH-IntegrationRuntime",
-	"properties": {
-		"type": "SelfHosted"
-	}
-}

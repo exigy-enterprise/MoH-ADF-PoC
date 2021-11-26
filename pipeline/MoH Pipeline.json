@@ -30,7 +30,7 @@
 								"referenceName": "MoH Azure Key Vault",
 								"type": "LinkedServiceReference"
 							},
-							"secretName": "NEDSS-ServiceAccountPassword"
+							"secretName": "NEDSS-ServiceAccountPW"
 						}
 					}
 				}

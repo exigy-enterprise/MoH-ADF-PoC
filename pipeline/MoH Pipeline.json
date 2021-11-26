@@ -23,7 +23,15 @@
 					"method": "GET",
 					"authentication": {
 						"type": "Basic",
-						"username": "DIGITALHEALTH\\sgatt"
+						"username": "DIGITALHEALTH\\sgatt",
+						"password": {
+							"type": "AzureKeyVaultSecret",
+							"store": {
+								"referenceName": "MoH Azure Key Vault",
+								"type": "LinkedServiceReference"
+							},
+							"secretName": "NEDSS-ServiceAccountPassword"
+						}
 					}
 				}
 			}

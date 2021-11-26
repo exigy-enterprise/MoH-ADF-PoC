@@ -1,0 +1,6 @@
+{
+	"name": "MoH-PublicIntegrationRuntime",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}

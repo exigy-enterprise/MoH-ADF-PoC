@@ -1,0 +1,19 @@
+{
+	"name": "MoH Rest",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "RestService",
+		"typeProperties": {
+			"url": "https://nedss-cms.digitalhealth.gov.mt/",
+			"enableServerCertificateValidation": false,
+			"authenticationType": "Basic",
+			"userName": "DIGITALHEALTH\\sgatt",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJhNDcxODIzZC01YWE5LTQ4NWUtODNkOS03MmY3YmRlYjJhYTIiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "MoH-PublicIntegrationRuntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

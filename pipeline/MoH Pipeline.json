@@ -58,6 +58,7 @@
 						"Content-Type": "application/json;odata=verbose",
 						"Accept": "application/json;odata=verbose"
 					},
+					"body": ".",
 					"authentication": {
 						"type": "Basic",
 						"username": "DIGITALHEALTH\\sgatt",
